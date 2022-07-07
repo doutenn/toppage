@@ -1,0 +1,43 @@
+.BnsArea{
+    text-align:left;
+    margin-left:10px;
+}
+.Bunsu,.Seisu,.Bunshi,.Bunbo{    /* 分数、整数、分子、分母 */
+    font-size:15px;
+    color:#123d12;
+    text-align:center;
+    line-height:20px;
+    padding:2px 5px 2px 5px;
+}
+.Bunsu,.Seisu{    /* 分数、整数 */
+    margin:0;
+    display:inline-block;
+}
+.Seisu{        /* 整数 */
+    padding-top:0px;
+    vertical-align:middle;
+}
+.Atai{        /* 値 */
+    color:red;
+}
+.Bunshi {    /* 分子 */
+    border-style:solid;
+    border-width:0px 0px 1px 0px;
+    border-color:rgb(0, 0, 0);
+    padding-bottom:0px;
+}
+span.super{    /* 指数 */
+    font-size:12px;
+    background-color:#ffccff;
+    vertical-align:super;
+    padding-left:5px;
+    padding-right:5px;
+}
+span.sub{    /* 添え字 */
+    color:#008080;
+    font-size:12px;
+    /*background-color:#00ffff;*/
+    vertical-align:sub;
+    padding-left:5px;
+    padding-right:5px;
+}

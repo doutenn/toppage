@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>先生用-三角形</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <ul>
+          <li><a href="先生用.html" class="btn4">先生用</a></li>
+          <li><a href="先生用-グラフ.html" class="btn4">グラフ</a></li>
+          <li><a href="先生用-三角形.html" class="btn2">三角形 </a></li>
+          <li><a href="先生用-四角形.html" class="btn4">四角形</a></li>
+          <li><a href="動点1-top.html" class="btn4">動点問題１</a></li>
+          <li><a href="動点2-top.html" class="btn4">動点問題２</a></li>
+          <li><a href="index.html" class="btn4">トップページ</a></li>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="contents">
+        <h1>先生用三角形</h1>
+        <center><canvas
+            id="canvas"
+            width="1300"
+            height="1200"
+            style = "      
+              border: solid 1px #000000;
+              box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+              border-radius: 3px;"
+          ></canvas>
+          <script src="先生用三角形.js"></script>
+          <h2>
+            問題に合わせて三角形の縦、横の長さ(10cmまで)、動点の速さを先に設定してください。
+          </h2>
+          <p id="time"></p>
+          <p id="msg1"></p>
+          <p id="msg2"></p>
+          <p id="msg3"></p>
+          <label>縦の長さ<input type="number" id="tate" min="1" max="10" step="1" value="1"></label>
+          <label>横の長さ<input type="number" id="yoko" min="1" max="10" step="1" value="1"></label>
+          <label>動点の速さ<input type="number" id="hayasa" min="1" max="10" step="1" value="1"></label>
+          <button id="start">スタート</button>
+          <button id="reset">リセット</button></center> 
+
+
+        <p class="mb8"></p>
+        <a href="#" id="page-top"></i>トップへ戻る</a>
+      </div>
+      <div class="footer">
+        <div class="footer-logo">動点問題</div>
+        <div class="footer-list">
+          <ul>
+            <li><a href="index.html">トップページ</a></li>
+            <li><a href="先生用.html">先生用</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd9kQl6dU2JhBXW8K9JKjTfryzKWZXvOkueMIfmbjrw3qISDw/viewform">評価アンケート</a></li>
+          </ul>
+        </div>
+      </div>
+  </body>
+</html>

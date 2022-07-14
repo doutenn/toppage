@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>先生用-グラフ</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <ul>
+          <li><a href="先生用.html" class="btn4">先生用</a></li>
+          <li><a href="先生用-グラフ.html" class="btn2">グラフ</a></li>
+          <li><a href="先生用-三角形.html" class="btn4">三角形 </a></li>
+          <li><a href="先生用-四角形.html" class="btn4">四角形</a></li>
+          <li><a href="動点1-top.html" class="btn4">動点問題１</a></li>
+          <li><a href="動点2-top.html" class="btn4">動点問題２</a></li>
+          <li><a href="index.html" class="btn4">トップページ</a></li>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="contents">
+        <h1>先生用グラフ</h1>
+        <center><canvas
+          id="canvas"
+          width="400"
+          height="400"
+          style = "      
+            border: solid 1px #000000;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+            border-radius: 3px;"
+        ></canvas>
+        <script src="先生用グラフ.js"></script>
+        <p id="time"></p>
+        <p id="msg1"></p>
+        <p id="msg2"></p>
+        <p id="msg3"></p>
+        <table class="BunsuTbl"><tbody><tr class="trBunshi">
+          <td class="Sei0" rowspan="2"></td>
+          <td class="Sei1" rowspan="2">傾き</td>
+          <td class="Sei2" rowspan="2">:</td>
+          <td class="Bunshi"><label><input type="number" id="yzou" value="1"/></label></td>
+        </tr><tr class="trBunbo">
+          <td class="Bunbo"><label><input type="number" id="xzou" value="1"/></label></td>
+        </tr></tbody></table>
+        <label>切片：<input type="number" id="sextupen" value="0" min="-10" max="10"/></label></p>
+        <label>変域：<input type="number" id="heniki1" value="-10" min="-10" max="0"/>≦x≦<input type="number" id="heniki2" value="10" min="0" max="10"/></label>
+        <button id="hyouji">表示</button></center>
+
+
+        <p class="mb8"></p>
+        <a href="#" id="page-top"></i>トップへ戻る</a>
+      </div>
+      <div class="footer">
+        <div class="footer-logo">動点問題</div>
+        <div class="footer-list">
+          <ul>
+            <li><a href="index.html">トップページ</a></li>
+            <li><a href="先生用.html">先生用</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd9kQl6dU2JhBXW8K9JKjTfryzKWZXvOkueMIfmbjrw3qISDw/viewform">評価アンケート</a></li>
+          </ul>
+        </div>
+      </div>
+  </body>
+</html>

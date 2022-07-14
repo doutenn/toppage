@@ -4,96 +4,30 @@
     <meta charset="utf-8">
     <title>先生用</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="bunsu.css">
   </head>
   <body>
     <header>
       <ul>
           <li><a href="index.html" class="btn4">Top</a></li>
-          <li><a href="グラフ1.html" class="btn4">グラフ</a></li>
+          <li><a href="先生用-グラフ.html" class="btn4">グラフ</a></li>
+          <li><a href="先生用-三角形.html" class="btn4">三角形 </a></li>
+          <li><a href="先生用-四角形.html" class="btn4">四角形</a></li>
           <li><a href="動点1-top.html" class="btn4">動点問題１</a></li>
           <li><a href="動点2-top.html" class="btn4">動点問題２</a></li>
-          <li><a href="動点3-top.html" class="btn4">動点問題３</a></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd9kQl6dU2JhBXW8K9JKjTfryzKWZXvOkueMIfmbjrw3qISDw/viewform" class="btn4">アンケート</a></li>
-          <li><a href="先生用.html" class="btn2">先生用</a></li>
+          <li><a href="#" class="btn4">アンケート</a></li>
       </ul>
     </header>
     <div class="main">
       <div class="contents">
-        <h1>先生用グラフ</h1>
-        <center><canvas
-            id="canvas"
-            width="400"
-            height="400"
-            style = "      
-              border: solid 1px #000000;
-              box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-              border-radius: 3px;"
-          ></canvas>
-          <script src="先生用グラフ.js"></script>
-          <p id="time"></p>
-          <p id="msg1"></p>
-          <p id="msg2"></p>
-          <p id="msg3"></p>
-          <table class="BunsuTbl"><tbody><tr class="trBunshi">
-            <td class="Sei0" rowspan="2"></td>
-            <td class="Sei1" rowspan="2">傾き</td>
-            <td class="Sei2" rowspan="2">:</td>
-            <td class="Bunshi"><label><input type="number" id="yzou" value="1"/></label></td>
-          </tr><tr class="trBunbo">
-            <td class="Bunbo"><label><input type="number" id="xzou" value="1"/></label></td>
-          </tr></tbody></table>
-          <label>切片：<input type="number" id="sextupen" value="0" min="-10" max="10"/></label></p>
-          <label>変域：<input type="number" id="heniki1" value="-10" min="-10" max="0"/>≦x≦<input type="number" id="heniki2" value="10" min="0" max="10"/></label>
-          <button id="hyouji">表示</button></center>
-        <h1>先生用三角形</h1>
-        <center><canvas
-          id="canvas"
-          width="1300"
-          height="1200"
-          style = "      
-            border: solid 1px #000000;
-            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-            border-radius: 3px;"
-        ></canvas>
-        <script src="先生用三角形.js"></script>
-        <h2>
-          問題に合わせて三角形の縦、横の長さ(10cmまで)、動点の速さを先に設定してください。
-        </h2>
-        <p id="time"></p>
-        <p id="msg1"></p>
-        <p id="msg2"></p>
-        <p id="msg3"></p>
-        <label>縦の長さ<input type="number" id="tate" min="1" max="10" step="1"></label>
-        <label>横の長さ<input type="number" id="yoko" min="1" max="10" step="1"></label>
-        <label>動点の速さ<input type="number" id="hayasa" min="1" max="10" step="1"></label>
-        <button id="start">スタート</button>
-        <button id="reset">リセット</button></center> 
-
-        <h1>先生用四角形</h1>
-        <center><canvas
-          id="canvas"
-          width="1300"
-          height="1200"
-          style = "      
-            border: solid 1px #000000;
-            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-            border-radius: 3px;"
-        ></canvas>
-        <script src="先生用四角形.js"></script>
-        <h2>
-          問題に合わせて四角形の縦、横の長さ(10cmまで)、動点の速さを先に設定してください。
-        </h2>
-        <p id="time"></p>
-        <p id="msg1"></p>
-        <p id="msg2"></p>
-        <p id="msg3"></p>
-        <label>縦の長さ<input type="number" id="tate" min="1" max="10" step="1"></label>
-        <label>横の長さ<input type="number" id="yoko" min="1" max="10" step="1"></label>
-        <label>動点の速さ<input type="number" id="hayasa" min="1" max="10" step="1"></label>
-        <button id="start">スタート</button>
-        <button id="reset">リセット</button></center>    
-        
+        <h1>先生用</h1>
+        <h3 class="section-title">一覧</h3>
+        <center>
+        <ul>
+          <li><a href="先生用-グラフ.html"><img src="grafu_1.png"class ="img"alt="グラフ" title="グラフ"></a></li>
+          <li><a href="先生用-三角形.html"><img src="douten_sankaku.png"class ="img"alt="三角形" title="三角形"></a></li>
+          <li><a href="先生用-四角形.html"><img src="douten_shikaku.png"class ="img"alt="四角形" title="四角形"></a></li>
+        </ul>
+        </center>
         <p class="mb8"></p>
         <a href="#" id="page-top"></i>トップへ戻る</a>
       </div>

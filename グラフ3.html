@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>グラフ3</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="bunsu.css">
 
   </head>
   <body>
@@ -13,7 +14,6 @@
             <li><a href="グラフ1.html" class="btn4">グラフ１</a></li>
             <li><a href="グラフ2.html" class="btn4">グラフ２</a></li>
             <li><a href="グラフ3.html" class="btn2">グラフ３</a></li>
-            <li><a href="グラフ4.html" class="btn4">グラフ４</a></li>
             <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd9kQl6dU2JhBXW8K9JKjTfryzKWZXvOkueMIfmbjrw3qISDw/viewform" class="btn4">アンケート</a></li>
             <li><a href="先生用.html" class="btn4">先生用</a></li>
           </ul>
@@ -22,6 +22,30 @@
       <div class="contents">
         <h1>グラフ<span>3</span></h1>
         <h3 class="section-title">グラフ</h3>
+        <center><canvas
+            id="canvas"
+            width="400"
+            height="400"
+            style = "      
+              border: solid 1px #000000;
+              box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+              border-radius: 3px;"
+          ></canvas>
+          <script src="gurafu.js"></script>
+          <p id="time"></p>
+          <p id="msg1"></p>
+          <p id="msg2"></p>
+          <p id="msg3"></p>
+          <center><table class="BunsuTbl"><tbody><tr class="trBunshi">
+            <td class="Sei0" rowspan="2"></td>
+            <td class="Sei1" rowspan="2">傾き</td>
+            <td class="Sei2" rowspan="2">:</td>
+            <td class="Bunshi"><label><input type="number" id="yzou" value="1"/></label></td>
+          </tr><tr class="trBunbo">
+            <td class="Bunbo"><label><input type="number" id="xzou" value="1"/></label></td>
+          </tr></tbody></table></center>
+          <label>切片：<input type="number" id="sextupen" value="0"/></label>
+          <button id="hyouji">表示</button>
 
         <h3 class="section-title">問題</h3>
         <center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdl4qXKlknugJN0L9kD6iaBaHAivqoORMcJSqQyrCQZFQWRRA/viewform?embedded=true" width="640" height="904" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe></center>
